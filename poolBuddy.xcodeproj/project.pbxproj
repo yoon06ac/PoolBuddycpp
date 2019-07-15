@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		93DFDD7022DAE68900ACE782 /* poolBuddy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = poolBuddy; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DFDD7322DAE68900ACE782 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		93DFDD7A22DAE6B300ACE782 /* poolBuddyUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = poolBuddyUser.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				93DFDD7322DAE68900ACE782 /* main.cpp */,
+				93DFDD7A22DAE6B300ACE782 /* poolBuddyUser.h */,
 			);
 			path = poolBuddy;
 			sourceTree = "<group>";
