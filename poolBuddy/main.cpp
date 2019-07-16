@@ -70,12 +70,12 @@ void createUser () {
         std::cout << "Enter your age: ";
         std::cin >> user1.age;
         if (user1.age < 18) {
-            std::cout << "Sorry, but you are not too young.\n";
+            std::cout << "Sorry, but you are too young.\n";
             flagger = 1;
         }else flagger = 0; myFile << user1.age << std::endl;break;
     }
     myFile.close();
-    std::cout << "Account Successfully Created\n";
+    std::cout << "Account successfully created\n";
 }
 
 void menu() {
